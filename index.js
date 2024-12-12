@@ -94,7 +94,7 @@ const Person = mongoose.model("Person", personSchema);
       return console.error(err);
     }
   })
-  /*
+  
   app.get(("/api/users/:_id/logs"), async (req, res)=>{
     
     const {from, to, limit} = req.query;
@@ -131,4 +131,3 @@ const Person = mongoose.model("Person", personSchema);
    return console.error(err);
   }
   });
-*/
